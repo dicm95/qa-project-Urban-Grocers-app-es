@@ -1,5 +1,7 @@
 # Proyecto Urban Grocers 
 
+#### Daniela Contreras M. (Cohort 22)
+
 ### Archivos del Proyecto:
 - configuration.py: Almacena la URL y las rutas de solicitud.
 - data.py: Contiene los cuerpos necesarios para las solicitudes.
@@ -29,3 +31,24 @@ Se probará específicamente el campo "Name" basandose en sus requisitos para su
 7.	Se permiten números: kit_body = { "name": "123" }	Código de respuesta: 201 El campo "name" del cuerpo de la respuesta coincide con el campo "name" del cuerpo de la solicitud
 8.	El parámetro no se pasa en la solicitud: kit_body = { }	Código de respuesta: 400
 9.	Se ha pasado un tipo de parámetro diferente (número): kit_body = { "name": 123 }	Código de respuesta: 400
+
+---
+
+### Tecnologías utilizadas:
+
+- Pytest
+- Requests
+
+Para su instalación hay que abrir la terminal de Pycharm y ejectutar los comandos:
+- pip install pytest
+- pip install requests
+
+---
+
+### Instrucciones 
+
+- Ejecuta todas las pruebas del proyecto a través de la terminal de PyCharm: escribe pytest create_kit_name_kit_test.py en la terminal.
+- Ejecuta todas las pruebas a través de la interfaz de PyCharm haciendo clic en el botón con un triángulo verde en la parte superior.
+- Asegúrate de ejecutarlas en el archivo correcto, una forma sencilla de hacer esto es ir al archivo y seleccionar "Current File" antes de hacer clic en el botón con un triángulo verde.
+- Otra forma de ejecutar las pruebas es haciendo clic en las flechas verdes junto a las pruebas en el código.
+- Algunas pruebas devolverán FAILED como resultado; no te preocupes, es un comportamiento esperado dentro de la lista de comprobaciones.
